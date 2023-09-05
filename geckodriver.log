@@ -404,3 +404,44 @@ console.warn: services.settings: security-state/cert-revocations sync interrupte
 console.warn: services.settings: security-state/onecrl sync interrupted by shutdown
 console.warn: services.settings: security-state/intermediates sync interrupted by shutdown
 console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.sys.mjs", 111))
+1693952852183	geckodriver	INFO	Listening on 127.0.0.1:12368
+1693952855266	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "1236 ... " "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\tadbir\\AppData\\Local\\Temp\\rust_mozprofileuBta2I"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693952855851	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693952855965	Marionette	INFO	Listening on port 12385
+WebDriver BiDi listening on ws://127.0.0.1:12369
+Read port: 12385
+1693952856320	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:12369/devtools/browser/5b790203-68fc-4749-ab13-8828ad45e8c0
+1693952913222	Marionette	INFO	Stopped listening on port 12385
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+  Message: NetworkError: Network error: TypeError: NetworkError: Network request failed
+  Stack:
+    APIError@resource://services-settings/RemoteSettingsClient.sys.mjs:111:1
+NetworkError@resource://services-settings/RemoteSettingsClient.sys.mjs:115:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:911:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:816:38
+
+console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.sys.mjs", 111))
+1693953026481	geckodriver	INFO	Listening on 127.0.0.1:12512
+1693953029547	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "1251 ... " "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\tadbir\\AppData\\Local\\Temp\\rust_mozprofileJIH8IK"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693953030135	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693953030255	Marionette	INFO	Listening on port 12520
+WebDriver BiDi listening on ws://127.0.0.1:12513
+Read port: 12520
+1693953030606	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:12513/devtools/browser/77d90626-0144-49b1-a957-1786040976c9
+1693953083392	Marionette	INFO	Stopped listening on port 12520
+Dynamically enable window occlusion 1

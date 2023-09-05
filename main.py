@@ -39,7 +39,7 @@ worksheet["D1"] = "Link Address"
 worksheet["E1"] = "Link TITLE"
 
 # Set column widths (adjust the values as needed)
-worksheet.column_dimensions['A'].width = 50  # Column A width
+worksheet.column_dimensions['A'].width = 30  # Column A width
 worksheet.column_dimensions['B'].width = 5  # Column B width
 worksheet.column_dimensions['C'].width = 5  # Column C width
 worksheet.column_dimensions['D'].width = 60  # Column D width
@@ -89,7 +89,7 @@ for keyword in keywords:
         # اگر کلمه کلیدی در تمام 5 صفحه پیدا نشده باشد، یک رکورد خالی به اکسل اضافه کنید
         if not_found_pages == pages_to_check:
             print(f"Keyword '{keyword}' not found on any page.")
-            row = [keyword, "نتیجه‌ای پیدا نشد در 5 صفحه اول", "", ""]
+            row = [keyword, "یافت نشد", "", ""]
             worksheet.append(row)
 workbook.save(f"search_results{keyword}-{current_date}.xlsx")
 
